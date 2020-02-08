@@ -96,7 +96,6 @@ def prepare_coin(degree_set):
 def initial_distribution(G, qc, t0):
     # 重ね合わせで初期状態を準備
     qc.h(t0[0:])
-    
 
 def graph_to_gate(G, register_size, degree_set, state_register_list, coin_registers_dict, step_num):
     import math
@@ -134,7 +133,11 @@ def graph_to_gate(G, register_size, degree_set, state_register_list, coin_regist
         # コントロール部の結合
 #         print(coin_registers_dict)
         control_qubits = [state_register_list[step_num-1][0:] + coin_registers_dict[coin_size][0:]]
-        binary =  binary_nodeA_zero + edge_number
+        print('binary_nodeA_zero')
+        print(binary_nodeA_zero)
+        print('edge_number_zero')
+        print(edge_number_zero)
+        binary =  binary_nodeA_zero + edge_number_zero
 #         print('control_binary')
 #         print(binary)
         # ターゲット部: 反転させる必要がある量子ビット
