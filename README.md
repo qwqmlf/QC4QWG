@@ -18,6 +18,7 @@ do not reflect the official policy or position of IBM or the
 IBM Q team.
 
 This research was supported by Exploratory IT Human Resources Project (MITOU TARGET Program) of Information-technology Promotion Agency, Japan (IPA) in 2018.
+
 ![Mitou Target](https://github.com/qwqmlf/QC4QWG/blob/master/fig/target.jpg)
 
 # Citation
